@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "mitsuba-visualize"
+version = "1.0.0"
+description = ""
+authors = ["Christian Diller <git@christian-diller.de>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+numpy = "^1.18.2"
+scipy = "^1.4.1"
+pyquaternion = "^0.9.5"
+tqdm = "^4.45.0"
+pandas = "^1.0.3"
+moviepy = "==1.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
